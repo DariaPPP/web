@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  height: 550vh;
+  height: 590vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -419,6 +419,7 @@ body {
 }
 
 .soc_nets > div {
+  cursor: pointer;
   width: 30px;
   height: 20px;
   text-align: center;
