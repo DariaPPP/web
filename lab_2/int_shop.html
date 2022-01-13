@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html>
+<head>
+  <title>интернет-магазин</title>
+  <link rel="stylesheet" href="int_shop.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,500&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+      <div class="wrapper">
+        <header class="header">
+          <div class="grid-container">
+            <div class="grid-item item1"> <p> AQUARELLE </p> </div>
+            <div class="grid-item item2">
+            <div class="gridd">
+              <div>  <div class="nav-toggle"><span></span></div>
+              <form action="" method="get" id="searchform">
+              <input type="text" placeholder="Найти товары и бренды">
+              </form> </div>
+
+              <div><p> <img src="imgs/izbrannoe.jpg" alt="избранное" width="40" height="30" id="favourites"></p></div>
+              <div><p><img src="imgs/your.profile.jpg" alt="профиль" width="40" height="30"></p></div>
+              <div><p> <img src="imgs/korzIna.jpg" alt="корзина" width="40" height="30"></p></div>
+            </div>
+
+             </div>
+            <div class="grid-item item3"></div>
+            <div class="grid-item item4">Главная</div>
+            <div class="grid-item item5">Каталог</div>
+            <div class="grid-item item4">Доставка</div>
+            <div class="grid-item item5">Контакты</div>
+          </div>
+        </header>
+
+        <div class="banner_image">
+          <p><img src="imgs/banner_glavnyi1.jpg" alt"баннер1"> </p>
+        </div>
+
+        <div class="banner_image">
+          <p><img src="imgs/attent!.jpg" alt"баннер2" > </p>
+        </div>
+
+        <div class="banner_image">
+          <p><img src="imgs/banner_yspei.jpg" alt"баннер3" > </p>
+        </div>
+
+        <section class="section section-catalog">
+       <div class="container_categories">
+         <header class="section__header">
+           <h2 class="section__title">Категории</h2>
+           <nav class="catalog-nav">
+             <ul class="catalog-nav__wrapper">
+               <li class="catalog-nav__item">
+                 <button class="catalog-nav__btn is-active" type="button">Женское</button>
+               </li>
+               <li class="catalog-nav__item">
+                 <button class="catalog-nav__btn" type="button">Мужское</button>
+               </li>
+               <li class="catalog-nav__item">
+                 <button class="catalog-nav__btn" type="button">Аксессуары</button>
+               </li>
+               <li class="catalog-nav__item">
+                 <button class="catalog-nav__btn" type="button">Спорт</button>
+               </li>
+             </ul>
+           </nav >
+         </header>
+       </div>
+     </section>
+
+        <div class="catalog">
+
+          <div class="card">
+            <div class="flexcontainer1_1">
+             <p id="price"> ЦЕНА </p>
+              <form>
+             <p id="inputt"><input type="text" placeholder="От..." size="20">
+               <input type="text" placeholder="До..." size="20">
+             </p>
+              </form>
+             </div>
+             <div class="flexcontainer1_2">
+               <select name="user_profile_color_2" required="required" id="brend" size="1">
+       <option value="">Бренд</option>
+       <option value="1">Adidas</option>
+       <option value="2">Asics</option>
+       <option value="3">Billabong</option>
+       <option value="4">Calvin Klein</option>
+       <option value="5">Champion</option>
+       <option value="6">Dr Martens</option>
+       <option value="7">Ellesse</option>
+       <option value="8">Holister</option>
+       <option value="9">Levi's</option>
+       <option value="10">Nike</option>
+       <option value="11">Asos</option>
+     </select>
+
+              </div>
+
+              <div class="flexcontainer1_3">
+                <select name="user_profile_color_2" required="required" id="brend" size="1">
+                <option value="">Цвет</option>
+                <option value="1">Белый</option>
+                <option value="2">Голубой</option>
+                <option value="3">Желтый</option>
+                <option value="4">Зеленый</option>
+                <option value="5">Фиолетовый</option>
+                <option value="6">Красный</option>
+                <option value="7">Черный</option>
+                <option value="8">Розовый</option>
+                <option value="9">Синий</option>
+                <option value="10">Коричневый</option>
+                <option value="11">Оранжевый</option>
+                </select>
+              </div>
+
+              <div class="flexcontainer1_4">
+                <select name="user_profile_color_2" required="required" id="brend" size="1">
+                <option value="">Материал</option>
+                <option value="1">Акрил</option>
+                <option value="2">Вискоза</option>
+                <option value="3">Кашемир</option>
+                <option value="4">Люрекс</option>
+                <option value="5">Полимер</option>
+                <option value="6">Полиэстер</option>
+                <option value="7">Текстиль</option>
+                <option value="8">Лен</option>
+                <option value="9">Хлопок</option>
+                <option value="10">Шелк</option>
+                <option value="11">Шерсть</option>
+                </select>
+               </div>
+
+               <div class="flexcontainer1_5">
+                 <select name="user_profile_color_2" required="required" id="brend" size="1">
+                 <option value="">Стиль</option>
+                 <option value="1">Деловой стиль</option>
+                 <option value="2">Спортивный стиль</option>
+                 <option value="3">Повседневный стиль</option>
+                 <option value="4">Вечерний стиль</option>
+                 </select>
+                </div>
+
+                <div class="flexcontainer1_6">
+                  <select name="user_profile_color_2" required="required" id="brend" size="1">
+                  <option value="">Другое</option>
+                  <option value="1">Только со скидкой</option>
+                  <option value="2">Экотовары</option>
+                  <option value="3">Вышивка</option>
+                  <option value="4">Лампасы</option>
+                  </select>
+                 </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_1.jpg" alt"фото1" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Синий свитер ручной вязки</h4>
+              <h4>3 090р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_2.jpg" alt"фото2" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Темно-синие брюки в клетку</h4>
+              <h4>2 380р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_3.jpg" alt"фото3" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Голубая куртка из искусственного меха</h4>
+              <h4>4 380р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="catalog2">
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_4.jpg" alt"фото4" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Платье миди с цветочным принтом</h4>
+              <h4>1 590р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_5.jpg" alt"фото5" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Укороченная водолазка розовая</h4>
+              <h4>1 190р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_6.jpg" alt"фото6" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Желтая атласная юбка мини</h4>
+              <h4>2 390р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_7.jpg" alt"фото10" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Розовое платье миди на пуговицах</h4>
+              <h4>4 090р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+        <div class="catalog2">
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_8.jpg" alt"фото7" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Черный джинсовый комбинезон</h4>
+              <h4>5 870р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_9.jpg" alt"фото8" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Джемпер с высоким воротом в клетку</h4>
+              <h4>2 690р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_10.jpg" alt"фото9" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Пуховик в шахматную клетку </h4>
+              <h4>2 390р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="product-image">
+              <img src="imgs/photo_11.jpg" alt"фото12" class="product_img">
+            </div>
+            <div class="product-info">
+              <h4>Эксклюзивное белое пляжное платье</h4>
+              <h4>1 190р.</h4>
+            </div>
+            <div class="btn">
+              <button type="button">Добавить в корзину</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="dostavka" >
+          <p id="sposoby_dostavki">Способы доставки</p>   <hr class="hr_line1">
+
+
+            <div class="variant1">
+            <p id="pickup">Самовывоз</p>
+
+         <div class="text_dostavka">
+           <ul>
+           <li>Вы можете забрать самостоятельно из наших магазинов по адресу:</li>
+           <li>г. Санкт-Петербург, ул. Стремянная, д 13</li>
+           <li>г. Санкт-Петербург, пр. Энгельса, д 96</li>
+           <li>в любое удобное для Вас время</li><br> <hr class="hr_line1">
+           <li>Предварительно необходимо оформить заказ на сайте или по телефону</li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="variant1">
+          <p id="pickup">Доставка курьером</p>
+
+          <div class="text_dostavka" >
+              <p>Наши курьеры доставят выбранный вами товар до двери. Совершая заказ на сайте по телефону укажите данный способ доставки и выберите нужное вам время.</p>
+              <hr class="hr_line2">
+              <p><i>Внимание!</i> Заказ долже быть совершен не позднее, чем за 24 часа до выбранного времени доставки</p>
+
+        </div>
+    </div>
+
+        </div>
+
+        <div class="contacts" >
+          <p id="sposoby_dostavki">Контактная информация</p>   <hr class="hr_line1">
+
+
+            <div class="contacts_1">
+            <p id="text">Телефон</p>
+            <p>+7(903)-987-14-22</p>
+            <p id="text">Адрес:</p>
+            <p>г.Санкт-Петербург, ул. Стремянная, д.13</p>
+
+        </div>
+
+        <div class="contacts_1">
+        <p id="text">Режим работы:</p>
+        <p>call-центр: ежедневно 24 часа</p>
+        <p id="text">Магазины:</p>
+        <p>ежедневно с 10:00 до 18:00</p>
+
+    </div>
+
+    <div class="contacts_1">
+    <p id="text">Почта:</p>
+    <p>aquarelle@mail.ru</p>
+    <p>ищите нас в соц.сетях:</p>
+    <div class="soc_nets">
+      <div><p> <img src="imgs/soc_vk.jpg" alt="Vkontakte" width="60" height="50" id="Vkontakte"></p></div>
+      <div><p> <img src="imgs/soc_inst.jpg" alt="Instagram" width="60" height="50" id="Instagram"></p></div>
+      <div><p> <img src="imgs/soc_twitter.jpg" alt="Twitter" width="60" height="50" id="Twitter"></p></div>
+  </div>
+
+</div>
+        </div>
+
+
+
+        </div>
+
+
+
+
+      </body>
+      </html>
